@@ -1,3 +1,4 @@
+
 # Streamify Discord Bot
 
 ## Introduction
@@ -39,6 +40,13 @@ Replace the placeholders with your actual Discord bot token, client ID, and guil
 
 ## Getting Started
 Once you have completed the setup, you can start using Streamify on your server. Use the `/help` command for guidance on using the bot's features.
+
+## Add Streamify to Your Server
+To add Streamify to your server for free, use the following link:
+[Add Streamify](https://discord.com/api/oauth2/authorize?client_id=1181844772529393714&permissions=2415922240&scope=applications.commands%20bot)
+
+Alternatively, you can add it through Top.gg and vote for it if you like the bot:
+[Streamify on Top.gg](https://top.gg/bot/1181844772529393714)
 
 ## Support
 For support, questions, or feedback, please [join the discord](https://discord.gg/4NWweN6cx8).
