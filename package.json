@@ -1,0 +1,37 @@
+{
+  "name": "discordbot-v2",
+  "version": "1.0.0",
+  "description": "A Discord bot for managing streaming roles in servers.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "guild": "node scripts/deploy-specific-commands.js",
+    "global": "node scripts/deploy-commands.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tirasmisu/discordbot-v2.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "discord.js"
+  ],
+  "author": "buff",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tirasmisu/discordbot-v2/issues"
+  },
+  "homepage": "https://github.com/tirasmisu/discordbot-v2#readme",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0"
+  }
+}
