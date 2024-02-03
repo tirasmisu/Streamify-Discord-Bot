@@ -22,7 +22,12 @@ const client = new Client({
 client.on(Events.GuildCreate, async guild => {
     console.log('\x1b[32m%s\x1b[0m', `Joined new guild: ${guild.name}`);
     try {
-        const setupResult = await setupGuild(guild);
+        const role = setupGuild(guild);
+        if (!role){
+            console.log(`Failed to setup 'Live' role in ${guild.name}.`);
+        } else {
+            console.log(`Setup completed in ${guild.name}.`);
+        }
     } catch (error) {
         console.error(`Error during setup in ${guild.name}:`, error);
     }
